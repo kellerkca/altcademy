@@ -1,0 +1,70 @@
+.red-text 
+{
+    color: red;
+}
+
+.sky-blue-text 
+{
+    color: rgb(39, 143, 185);
+}
+
+.img-responsive 
+{
+    width: 100%;
+}
+
+.sponsor 
+{
+    background-color: rgb(210, 242, 255);
+}
+
+.main-article
+{
+    margin: -20px 0 0 -20px;
+}
+
+.article-spacing-large
+{
+    height: 900px;
+
+}
+.article-spacing-small 
+{
+    height: 700px;
+}
+
+.listed-unstyled 
+{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    border: 1px 0 1px 0 dashed gray;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (min-width:1200px)
+{
+    .col-md-9 
+    {
+        width: 74.999997%;
+    }
+
+    .col-md-3 
+    {
+        width: 24.999999%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px)
+{
+    .col-md-9
+    {
+        width: 74.999997%;
+    }
+
+    .col-md-3 {
+        width: 24.999999%;
+    } 
+}
+
